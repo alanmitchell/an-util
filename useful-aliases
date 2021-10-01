@@ -1,0 +1,13 @@
+alias ls='ls --color=auto'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
+alias e5comm='picocom -b 9600 --omap crlf -c /dev/ttyUSB0'
+alias getgtw='scp alan@akstats.com:an-api/lora-data/gateways.tsv .'
+alias scope='sommelier -X --scale=0.8 --dpi=70 /usr/bin/picoscope &'
+alias aliases="grep '^\s*alias' .bashrc"
