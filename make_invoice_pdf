@@ -1,0 +1,4 @@
+#!/bin/bash
+cd ~/gdrive/Admin/Invoices/ToBill
+python3 pdf_combine_cmd.py
+

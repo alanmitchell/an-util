@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ~/gdrive/Admin/TimeTracking
+python3 time_report_cmd.py
