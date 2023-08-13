@@ -1,0 +1,7 @@
+proj_map = {
+    'BMON FY24': 'BMON / Mini-Monitor Contract',
+    'ANTHC': 'ANTHC Remote Monitoring Contract',
+    'ANTHC Wind': 'ANTHC Wind Economics Contract',
+    'AkWarm': 'AkWarm Software Development',
+    'ACEP Pride': 'North Pole and Kotzebue Data Acquisition',
+}
