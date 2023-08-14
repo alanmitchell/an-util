@@ -18,8 +18,6 @@ end_d = parse(end_date)
 ts_file_url = 'https://docs.google.com/spreadsheets/d/1ChHQ47LFvT_8jOmUfEOXm0l0x6ZlevQV2TVsEV6jo3c/export?format=tsv'
 df = pd.read_csv(ts_file_url, sep='\t', parse_dates=['Date'])
 
-
-
 dfr = df.query('Date >= @start_d and Date <= @end_d').groupby('Project').sum()[['Hours']]
 print()
 print(dfr)
