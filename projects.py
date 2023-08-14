@@ -21,3 +21,4 @@ df = pd.read_csv(ts_file_url, sep='\t', parse_dates=['Date'])
 dfr = df.query('Date >= @start_d and Date <= @end_d').groupby('Project').sum()[['Hours']]
 print()
 print(dfr)
+print(f'\nTotal:  {dfr.Hours.sum():.2f}')
