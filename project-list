@@ -1,7 +1,24 @@
 proj_map = {
-    'BMON FY24': 'BMON / Mini-Monitor Contract',
+    'BMON FY24': 'BMON / Mini-Monitor Contract FY24',
+    'BMON FY25': 'BMON / Mini-Monitor Contract FY25',
     'ANTHC': 'ANTHC Remote Monitoring Contract',
     'ANTHC Wind': 'ANTHC Wind Economics Contract',
+    'ANTHC Wind2': 'ACEP Wind Economics Project',
     'ACEP Pride': 'North Pole and Kotzebue Data Acquisition',
     'AkWarm': 'AkWarm Software Development',
+    'NSHC Dashboard': 'Assistance with BMON for Norton Sound Health Corp.',
+    'CIHA': 'Energy Consulting for Cook Inlet Housing Authority',
+    'HiTemp HP': 'AHS High Temperature Heat Pump Monitoring',
+    'Heat Pump Calc': 'Heat Pump Calculator',
+    'CEA Solar': 'Deerstone CEA Consulting'
+}
+
+# For the listed (Project, Task), hours are multiplied by the factor entered below.
+# Use None if all Tasks should be multiplied.
+hour_multiplier = {
+    ('BMON FY25', 'System Health'): 0.5
+}
+
+notes = {
+	"BMON FY25": "Note: Only 50% of the hours for the 'System Health' project were billed due to a cost sharing arrangement.",
 }
